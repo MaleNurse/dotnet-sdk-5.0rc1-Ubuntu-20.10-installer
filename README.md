@@ -16,11 +16,7 @@ $ wget https://raw.githubusercontent.com/averyfreeman/dotnet-sdk-5.0rc1-Ubuntu-2
 
 $ chmod + x install-dotnet-preview-groovy.sh
 
-$ sudo su
-
-# ./install-dotnet-preview-groovy.sh
-
-# exit
+$ sudo ./install-dotnet-preview-groovy.sh
 
 $ dotnet --info
 ```
