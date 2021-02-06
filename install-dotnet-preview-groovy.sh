@@ -173,7 +173,7 @@ function install()
         rpm -ivh --replacepkgs $DOWNLOAD_DIR/$DOTNET_PACKAGE_DIR/*
     elif [ $PACKAGE_TYPE == "deb" ]
     then
-        apt install -y $DOWNLOAD_DIR/$DOTNET_PACKAGE_DIR/*
+        apt install -y --allow-downgrades $DOWNLOAD_DIR/$DOTNET_PACKAGE_DIR/*
     fi
 }
 
